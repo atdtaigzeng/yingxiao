@@ -1,0 +1,18 @@
+[ 2017-06-24T09:34:22+08:00 ] 182.140.175.143 /index.php?m=Home&c=Cart&a=header_cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Logic/CartLogic.class.php 第 163 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000116s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000168s ]
+ERR: 模板不存在:./Template/pc/default/Cart/header_cart_list.html
+

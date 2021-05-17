@@ -1,0 +1,33 @@
+[ 2017-06-23T13:31:18+08:00 ] 140.207.54.75 /index.php?m=Home&c=Weixin&a=index&signature=e3fbd775a82a0974ea4c36e5f90d33a5f02cfd7d&timestamp=1498195877&nonce=31563169&openid=obuMewFhE-ah-17Npssc3jBBILpQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003250s ]
+
+[ 2017-06-23T21:54:46+08:00 ] 140.207.54.79 /index.php?m=Home&c=Weixin&a=index&signature=dc0a9ef32814867eab06dc3dfa28c8f4468ab08a&timestamp=1498226086&nonce=2042526346&openid=obuMewB6ZRJ8U-hdOltEbzO8eLio
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-06-23T22:08:00+08:00 ] 140.207.54.80 /index.php?m=Home&c=Weixin&a=index&signature=f58ad0b1e42c37af316f0e1b18cccab934c33442&timestamp=1498226880&nonce=923295623&openid=obuMewCmR4CRZma7NLp0QjaezyDg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+

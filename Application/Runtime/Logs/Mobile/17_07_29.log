@@ -1,0 +1,10 @@
+[ 2017-07-29T09:47:59+08:00 ] 182.136.97.164 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/demo.17pche.com/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/demo.17pche.com/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+

@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tpshop管理后台</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap 3.3.4 -->
+    <link href="/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- FontAwesome 4.3.0 -->
+    <link href="/Public/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 --
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="/Public/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+    	folder instead of downloading all of them to reduce the load. -->
+    <link href="/Public/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="/Public/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery 2.1.4 -->
+    <!--<link href="/Public/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />-->
+    <script src="/Public/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="/Public/js/global.js"></script>
+    <script src="/Public/js/myFormValidate.js"></script>
+    <script src="/Public/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Public/js/layer/layer-min.js"></script><!-- 弹窗js 参考文档 http://layer.layui.com/-->
+    <script src="/Public/js/myAjax.js"></script>
+    <script src="/Public/plugins/daterangepicker/moment.min.js" type="text/javascript"></script>
+    <script src="/Public/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+</head>
+<body style="background-color:#ecf0f5;">
+<div class="wrapper">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <ol class="breadcrumb">
+            <li><a href="javascript:void();"><i class="fa fa-home"></i>&nbsp;&nbsp;后台首页</a></li>
+
+            <li><a href="javascript:void();">分销管理</a></li>
+            <li><a href="javascript:void();">分成记录</a></li>
+        </ol>
+    </div>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-list"></i>分成记录</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="navbar navbar-default">
+                        <form id="search-form2" class="navbar-form form-inline"  method="post" action="/index.php/Admin/Distribut/rebate_log">
+                            <div class="form-group">
+                                <label for="input-order-id" class="control-label">状态:</label>
+                                <div class="form-group">
+                                    <select class="form-control" id="status" name="status">
+                                        <option value="">全部</option>
+                                        <option value="">所有分类</option>
+                                        <foreach name="categoryList" item="v" key="k" >
+                                            <option value="{$k}"> {$v}</option>
+                                        </foreach>
+                                    </select>
+                                </div>
+                                <label for="input-order-id" class="control-label">用户ID:</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="user_id" placeholder="用户id" value="" name="user_id">
+                                </div>
+
+                                <label for="input-order-id" class="control-label">订单号:</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="input-order-id" placeholder="订单编号" value="" name="order_sn">
+                                </div>
+
+                                <div class="input-group margin">
+                                    <div class="input-group-addon">
+                                        记录生成时间<i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" id="start_time" value="2016-03-27 - 2017-03-28" name="create_time" class="form-control pull-right" style="width:250px;">
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="ajax_get_table('search-form2',1)" id="button-filter search-order" class="btn btn-primary"><i class="fa fa-search"></i> 筛选</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="ajax_return">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<script>
+    $(document).ready(function(){
+        // ajax 加载分销日志列表
+        ajax_get_table('search-form2',1);
+
+    });
+
+    // ajax 抓取页面 form 为表单id  page 为当前第几页
+    function ajax_get_table(form,page){
+        cur_page = page; //当前页面 保存为全局变量
+        $.ajax({
+            type : "POST",
+            url:"/index.php?m=Admin&c=distribut&a=ajaxRebate_log&p="+page,//+tab,
+            data : $('#'+form).serialize(),// 你的formid
+            success: function(data){
+                $("#ajax_return").html('');
+                $("#ajax_return").append(data);
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        $('#start_time').daterangepicker({
+            format:"YYYY-MM-DD",
+            singleDatePicker: false,
+            showDropdowns: true,
+            minDate:'2016-01-01',
+            maxDate:'2030-01-01',
+            startDate:'2017-02-01',
+            locale : {
+                applyLabel : '确定',
+                cancelLabel : '取消',
+                fromLabel : '起始时间',
+                toLabel : '结束时间',
+                customRangeLabel : '自定义',
+                daysOfWeek : [ '日', '一', '二', '三', '四', '五', '六' ],
+                monthNames : [ '一月', '二月', '三月', '四月', '五月', '六月','七月', '八月', '九月', '十月', '十一月', '十二月' ],
+                firstDay : 1
+            }
+        });
+    });
+</script>
+</body>
+</html>

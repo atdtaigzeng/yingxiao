@@ -1,0 +1,30 @@
+[ 2017-07-08T09:06:30+08:00 ] 182.131.11.53 /Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-08T09:06:39+08:00 ] 101.226.65.104 /Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-08T09:06:41+08:00 ] 101.226.33.208 /Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+

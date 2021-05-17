@@ -1,0 +1,44 @@
+<include file="Public/header" />
+
+<body>
+    <div id="tbh5v0">
+        <div class="user_com">
+            <include file="Public/uer_topnav" />
+            <div class="Wallet">
+                <p style="text-align: center;font-size: 12px;">我的分销商：我发展的{$leader}级({$number})人</p>
+            </div>
+            <div class="Wallet">
+<!--                 搜索
+                <div class="endorse_dyr">
+
+                    <form action="/index.php/Mobile/Distribut/lower_list/level/3.html" method="post" id="filter_form">
+                        <input class="endor_text" type="text" name="q">
+                        <input class="endor_but" type="button" onclick="ajax_search();" value="搜索">
+                        <input type="hidden" name="__hash__" value="4bd88547c74807b4ab52970389ab9843_564a54f92b1706844e8910831e115b99">
+                    </form>
+                </div> -->
+                <div class="endorse_dyr bg_gray" id="ajax_return">
+                    <volist name="userinfo" id="info">
+                        <div class="endorse_num">
+                            <div class="hend_endor">
+                                <img src='{$info[head_pic]|default="__STATIC__/images/user68.jpg"}' width="60" height="60">
+                            </div>
+                            <div class="sec_endor">
+                                <p>昵称：<span>{$info.nickname}</span></p>
+                                <p>电话：<span>{$info.mobile}</span></p>
+                                <p>加盟时间：<span>{$info.reg_time}</span></p>
+                                <p>会员ID：<span>{$info.user_id}</span></p>
+                            </div>
+                        </div>
+                    </volist>
+                </div>
+                <!-- 点击加载更多 -->
+                <!-- <p style="text-align: center;" id="getmore"><a href="javascript:void(0)" onclick="ajax_sourch_submit()">点击加载更多</a></p> -->
+            </div>
+        </div>
+        <include file="Public/footer" />
+    </div>
+    <include file="Public/footer_nav" />
+</body>
+
+</html>

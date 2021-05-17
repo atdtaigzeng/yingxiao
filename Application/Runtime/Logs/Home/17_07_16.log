@@ -1,0 +1,69 @@
+[ 2017-07-16T01:31:08+08:00 ] 140.207.54.79 /index.php?m=Home&c=Weixin&a=index&signature=234dfb9276cb1477d6feff15c1e08d8488f159cf&timestamp=1500139867&nonce=1239182021&openid=obuMewIqZXh-KG2gMI1UyiZfYidA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2017-07-16T01:31:18+08:00 ] 140.207.54.80 /index.php?m=Home&c=Weixin&a=index&signature=4440568573e4cde35e0a2702a7f2e573621eed59&timestamp=1500139878&nonce=163104611&openid=obuMewIqZXh-KG2gMI1UyiZfYidA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-07-16T01:31:28+08:00 ] 140.207.54.80 /index.php?m=Home&c=Weixin&a=index&signature=cac074452558b29ebce0cac20b39325c4ddf8e07&timestamp=1500139888&nonce=958997789&openid=obuMewIqZXh-KG2gMI1UyiZfYidA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-16T01:31:31+08:00 ] 182.144.53.117 /index.php?m=Home&c=Cart&a=header_cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Logic/CartLogic.class.php 第 163 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000158s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000220s ]
+ERR: 模板不存在:./Template/pc/default/Cart/header_cart_list.html
+
+[ 2017-07-16T23:05:49+08:00 ] 182.131.11.51 /index.php?m=Home&c=Cart&a=header_cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Logic/CartLogic.class.php 第 163 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000096s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000145s ]
+ERR: 模板不存在:./Template/pc/default/Cart/header_cart_list.html
+

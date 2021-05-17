@@ -1,0 +1,601 @@
+[ 2017-06-29T21:55:06+08:00 ] 182.131.11.250 /Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 182.131.11.250 /Mobile?code=011t9B9A1d6Tch0q65cA11iu9A1t9B9d&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+NOTIC: [8] Use of undefined constant appid - assumed 'appid' /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 228 行.
+NOTIC: [8] Use of undefined constant appsecret - assumed 'appsecret' /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 228 行.
+NOTIC: [8] Undefined index: first_leader /data/wwwroot/tpshop/Application/Home/Logic/UsersLogic.class.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/tpshop/ThinkPHP/Library/Think/Db/Driver.class.php 第 494 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.006241s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.006338s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: order /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 35 行.
+NOTIC: [8] Undefined index: where /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 37 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+NOTIC: [8] Undefined index: level /data/wwwroot/tpshop/ThinkPHP/Library/Think/Template/TagLib/Tpshop.class.php 第 155 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 83 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 186 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 186 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 186 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 186 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 187 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 187 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 187 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 187 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 187 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 192 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 192 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 192 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 192 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 193 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 193 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 193 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 193 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 193 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 197 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 197 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 197 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 197 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 198 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 198 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 198 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 198 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 198 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 205 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 205 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 205 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 205 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 206 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 206 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 206 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 206 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 206 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 210 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 210 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 210 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 210 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 211 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 211 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 211 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 211 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 211 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 263 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 265 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 266 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 263 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 265 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 266 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 263 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 265 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 266 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 268 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 282 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 284 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 286 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 292 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 282 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 284 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 286 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 292 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 282 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 284 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 286 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 292 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 317 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 321 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 358 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 364 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 367 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 403 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 409 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 412 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 445 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 451 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 454 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Use of undefined constant position - assumed 'position' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant edit_ad - assumed 'edit_ad' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Undefined index: edit_ad /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 491 行.
+NOTIC: [8] Use of undefined constant ad_code - assumed 'ad_code' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Undefined index: title /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Undefined index: style /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 493 行.
+NOTIC: [8] Undefined variable: user_id /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 557 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 677 行.
+NOTIC: [8] Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/b5bbc2774616647d2eecc9fe44b263ed.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.416508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.416586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-06-29T21:55:08+08:00 ] 117.175.88.49 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 223.85.132.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 117.175.88.49 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.60 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 223.85.132.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 223.85.132.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:08+08:00 ] 223.85.132.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:09+08:00 ] 124.161.23.60 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:09+08:00 ] 182.131.11.250 /index.php?m=Mobile&c=Index&a=ajaxGetMore&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000145s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 2 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 8 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /data/wwwroot/tpshop/Application/Runtime/Cache/Mobile/1e5b965c4527df62a04c05e6f82297a7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-06-29T21:55:15+08:00 ] 101.226.89.121 /Mobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:20+08:00 ] 124.161.23.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:20+08:00 ] 182.131.11.250 /index.php/Mobile/Cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 25 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000085s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-06-29T21:55:20+08:00 ] 124.161.23.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:21+08:00 ] 182.131.11.250 /index.php/Mobile/Cart/ajaxCartList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Mobile/Controller/CartController.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Logic/CartLogic.class.php 第 163 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000084s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-06-29T21:55:30+08:00 ] 101.226.65.107 /index.php/Mobile/Cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-06-29T21:55:30+08:00 ] 101.226.33.201 /index.php/Mobile/Cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+

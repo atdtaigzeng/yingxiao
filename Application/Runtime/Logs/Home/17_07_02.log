@@ -1,0 +1,62 @@
+[ 2017-07-02T19:37:31+08:00 ] 140.207.54.75 /index.php?m=Home&c=Weixin&a=index&signature=5554865d5a0b19a55d72fd616fb1c861e1176656&timestamp=1498995450&nonce=2071756751&openid=obuMewG0IcTcI9TyBFyZHuzR57Kc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-07-02T19:37:33+08:00 ] 182.131.10.11 /index.php?m=Home&c=Cart&a=header_cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant discount - assumed 'discount' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Controller/CartController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' /data/wwwroot/tpshop/Application/Home/Logic/CartLogic.class.php 第 163 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000105s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000154s ]
+ERR: 模板不存在:./Template/pc/default/Cart/header_cart_list.html
+
+[ 2017-07-02T19:38:07+08:00 ] 140.207.54.76 /index.php?m=Home&c=Weixin&a=index&signature=12f81e57de2d41e4d0e08a5e92c6490419ae9a7a&timestamp=1498995487&nonce=273628693&openid=obuMewG0IcTcI9TyBFyZHuzR57Kc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-07-02T19:39:50+08:00 ] 140.207.54.76 /index.php?m=Home&c=Weixin&a=index&signature=fef2b76cd14dfb7bbe37c1819502932f190d1985&timestamp=1498995590&nonce=1467431621&openid=obuMewG0IcTcI9TyBFyZHuzR57Kc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-07-02T19:42:15+08:00 ] 140.207.54.75 /index.php?m=Home&c=Weixin&a=index&signature=c02fc83233e74917a589d2b4288751d9f78fa689&timestamp=1498995735&nonce=764280384&openid=obuMewG0IcTcI9TyBFyZHuzR57Kc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+

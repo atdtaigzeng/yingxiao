@@ -1,0 +1,46 @@
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th class="sorting text-left">编号</th>
+            <th class="sorting text-left">微信昵称</th>
+            <th class="sorting text-left">可用资金</th>
+            <th class="sorting text-left">冻结资金</th>
+            <th class="sorting text-left">总分成金额</th>
+            <th class="sorting text-left">下线会员总数</th>
+            <th class="sorting text-left">一级会员</th>
+            <th class="sorting text-left">二级会员</th>
+            <th class="sorting text-left">三级会员</th>
+            <th class="sorting text-left">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="usersList" id="list">
+            <tr>
+                <td class="text-right">{$list.user_id}</td>
+                <td class="text-left">{$list.nickname}</td>
+                <td class="text-left">{$list.user_money}</td>
+                <td class="text-left">{$list.frozen_money}</td>
+                <td class="text-left">{$list.distribut_money}</td>
+                <td class="text-left">{$list.all_num}</td>
+                <td class="text-left">{$list.first}</td>
+                <td class="text-left">{$list.second}</td>
+                <td class="text-left">{$list.third}</td>
+                <td class="text-right">
+                    <a href="{:U('Admin/User/detail',array('id'=>$list['user_id']))}"  title=""><i class="fa ">查看</i></a>
+                </td>
+            </tr>
+        </volist>
+        </tbody>
+    </table>
+</div>
+<div class="row">
+    <div class="col-sm-3 text-left"></div>
+    <div class="col-sm-9 text-right">{$page}</div>
+</div>
+<script>
+    $(".pagination  a").click(function(){
+        cur_page = $(this).data('p');
+        ajax_get_table('search-form2',cur_page);
+    });
+</script>

@@ -1,0 +1,129 @@
+<include file="Public/min-header"/>
+<div class="wrapper">
+    <include file="Public/breadcrumb"/>
+    <section class="content">
+        <div class="row">
+        	<div class="col-xs-12">
+        	 <div class="pull-right">
+                <!-- <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="返回"><i class="fa fa-reply"></i></a> -->
+            	<a href="javascript:;" class="btn btn-default" data-url="http://shop.17pche.com/Admin/Coupon/index" onclick="get_prize_user(this)"><i class="fa fa-list"></i> 中奖用户</a>
+           	</div>
+        	
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-list"></i>抽奖排队用户(总人数{$totle})</h3>
+                </div>
+            	
+                <div class="panel-body">
+	                <div class="navbar navbar-default">
+	                	<form class="navbar-form form-inline" action="" method="post">
+                        
+				            <div class="form-group">
+				              	<input type="text" class="form-control" placeholder="搜索">
+				            </div>
+				            <button type="submit" class="btn btn-default">提交</button>
+
+                            <div class="form-group ">
+                                <a href="{:U('Coupon/tree')}" class="btn btn-primary pull-right"><i class="fa fa-plus"></i>查看队列树</a>
+                            </div>
+
+                            <div class="form-group pull-right">
+					            <a href="#" class="btn btn-primary pull-right"><i class="fa fa-plus"></i>发放奖品</a>
+				            </div>		          
+			          </form>
+	                </div>
+                    <div id="ajax_return">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);"></td>
+                                    <td class="text-center">昵称</td>
+                                    <td class="text-center">手机号</td>
+                                    <td class="text-center">团队一级ID</td>
+                                    <td class="text-center">团队二级ID</td>
+                                    <td class="text-center">团队三级ID</td>
+                                    <td class="text-center">加入时间</td>
+                                    <td class="text-center">头像</td>
+                                    <td class="text-center">操作</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="lists" id="list">
+                                    <tr>
+                                        <td class="text-center">
+                                            <input type="checkbox" name="selected[]" value="6">
+                                        </td>
+                                        <td class="text-center">{$list.nickname}</td>
+                                        <td class="text-center">{$list.mobile}</td>
+                                        <td class="text-center">{$list.first}</td>
+                                        <td class="text-center">{$list.second}</td>
+                                        <td class="text-center">{$list.third}</td>
+                                        <td class="text-center">{$list.addtime|date='Y-m-d H:i:s',###}</td>
+                                        <td class="text-center"><img src="{$list.head_pic}" width="50px" height="50px"/></td>
+                                        <td class="text-center">
+                                            <a href="#" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="查看"><i class="fa fa-eye"></i></a>
+                                            <a href="#" data-toggle="tooltip" title="" class="btn btn-info" data-original-title="编辑"><i class="fa fa-pencil"></i></a>
+                                            <a data-url="{:U('Admin/Coupon/del_coupon',array('id'=>$list['id']))}" onclick="delfun(this)" href="javascript:;" data-toggle="tooltip" title="" class="btn btn-danger" data-original-title="删除"><i class="fa fa-trash-o"></i></a>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+				 <div class="row">
+              	    <div class="col-sm-6 text-left"></div>
+                    <div class="col-sm-6 text-right">{$page}</div>		
+	              </div>                    
+				  </div>
+                </div>
+            </div>
+        </div>        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+<script>
+$('.send_user').click(function(){
+    var url = $(this).attr('data-url');
+    layer.open({
+        type: 2,
+        title: '发放优惠券',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['70%', '85%'],
+        content: url, 
+    });
+});
+
+function delfun(obj){
+	if(confirm('确认删除')){		
+		$.ajax({
+			type : 'post',
+			url : $(obj).attr('data-url'),
+			dataType : 'json',
+			success : function(data){
+				if(data){
+					$(obj).parent().parent().remove();
+				}else{
+					layer.alert('删除失败', {icon: 2});  //alert('删除失败');
+				}
+			}
+		})
+	}
+	return false;
+}
+
+function get_prize_user(obj){
+    layer.open({
+        type: 2,
+        title: '已中奖用户',
+        shadeClose: true,
+        shade: 0.3,
+        area: ['90%', '90%'],
+        content: $(obj).attr('data-url'), 
+    });
+}
+</script>
+</body>
+</html>

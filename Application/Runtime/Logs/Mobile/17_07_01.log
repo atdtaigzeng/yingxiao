@@ -1,0 +1,70 @@
+[ 2017-07-01T08:25:36+08:00 ] 182.131.11.233 /Mobile/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-01T08:25:37+08:00 ] 182.131.11.233 /Mobile/User/index?code=011wvjM70G0VuK1tmTM70UxfM70wvjMb&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+NOTIC: [8] Use of undefined constant appid - assumed 'appid' /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 228 行.
+NOTIC: [8] Use of undefined constant appsecret - assumed 'appsecret' /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 228 行.
+
+[ 2017-07-01T08:25:37+08:00 ] 182.131.11.233 /Mobile/User/index?code=0614iJU308CAlE1ycbV300kGU304iJU5&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-07-01T16:44:33+08:00 ] 124.161.23.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021372s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-01T16:44:33+08:00 ] 182.140.175.143 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021956s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-01T16:44:34+08:00 ] 117.175.88.49 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+
+[ 2017-07-01T16:44:43+08:00 ] 117.185.27.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 49 行.
+NOTIC: [8] Undefined index: openid /data/wwwroot/tpshop/Application/Mobile/Controller/MobileBaseController.class.php 第 127 行.
+

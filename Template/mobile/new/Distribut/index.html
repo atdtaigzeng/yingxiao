@@ -1,0 +1,314 @@
+<include file="Public/header" />
+<style type="text/css">
+.Wallet ul li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.dis-span {
+    padding: 5px;
+    background: black;
+    border-radius: 5px;
+}
+
+.icon-jia {
+    background: url("http://shop.17pche.com/Template/mobile/new/Static/images/dis+.png") no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+.dis-btn1-list,
+.dis-btn2-list,
+.dis-btn3-list {
+    display: none;
+    /*margin-top: -135px;*/
+    /*z-index: 2; */
+}
+
+.dis-btn1-close {
+    animation: btnclose 0.5s linear;
+    margin-top: -135px;
+    /*display: none;*/
+}
+
+.dis-btn1-open {
+    animation: btnboll 0.2s linear;
+    margin-top: 0px;
+    display: block;
+}
+
+.dis-btn2-open {
+    animation: btnlist 0.2s linear;
+    margin-top: 0px;
+    display: block;
+}
+
+.dis-btn2-close {
+    animation: btn2list 0.2s linear;
+    margin-top: 0px;
+    display: block;
+}
+
+.dis-btn3-open {
+    animation: btnmoney 0.2s linear;
+    margin-top: 0px;
+    display: block;
+}
+
+.dis-btn3-close {
+    animation: btn3list 0.2s linear;
+    margin-top: 0px;
+    display: block;
+}
+
+
+/*展示选项*/
+
+
+/*分销商*/
+
+@keyframes btnboll {
+    0% {
+        margin-top: -135px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: -72px;
+        opacity: 0.1;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+
+/*订单*/
+
+@keyframes btnlist {
+    0% {
+        margin-top: -90px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: -45px;
+        opacity: 0.3;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes btnmoney {
+    0% {
+        margin-top: -270px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: -135px;
+        opacity: 0.3;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+
+/*隐藏选项*/
+
+@keyframes btnclose {
+    0% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+    50% {
+        margin-top: -72px;
+        opacity: 0.1;
+    }
+    100% {
+        margin-top: -135px;
+        opacity: 0;
+    }
+}
+
+@keyframes btn2close {
+    0% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+    50% {
+        margin-top: -45px;
+        opacity: 0.3;
+    }
+    100% {
+        margin-top: -90px;
+        opacity: 0;
+    }
+}
+
+@keyframes btn3close {
+    0% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+    50% {
+        margin-top: -135px;
+        opacity: 0.3;
+    }
+    100% {
+        margin-top: -270px;
+        opacity: 0;
+    }
+}
+</style>
+
+<body>
+    <div id="tbh5v0">
+        <div class="user_com">
+            <include file="Public/uer_topnav" />
+            <div class="Wallet">
+                <ul>
+                    <li class="bain1"><strong>￥{$user['user_money']}元</strong><span>余额</span></li>
+                    <li><strong>￥{$user[distribut_money]}</strong><span>我的奖励</span></li>
+                </ul>
+            </div>
+            <div class="Wallet">
+                <a href="javascript:;" id="dis-btn1" data-operation="no" style="z-index: 10">
+                    <em class="Icon j_million"></em>
+                    <dl class="b">
+                        <dt>我的分销商</dt>
+                        <dd class=""><span class="dis-span">{$totle}人</span></dd>
+                    </dl>
+                </a>
+                <div class="dis-btn1-list">
+                    <a href="{:U('Mobile/Distribut/myleader',array('user_id'=>$user[user_id],'leader'=>1))}">
+                        <dl class="b">
+                            <dt>我的一级分销商</dt>
+                            <dd class="">{$first_leader}人</dd>
+                        </dl>
+                    </a>
+                    <a href="{:U('Mobile/Distribut/myleader',array('user_id'=>$user[user_id],'leader'=>2))}">
+                        <dl class="b">
+                            <dt>我的二级分销商</dt>
+                            <dd class="">{$second_leader}人</dd>
+                        </dl>
+                    </a>
+                    <a href="{:U('Mobile/Distribut/myleader',array('user_id'=>$user[user_id],'leader'=>3))}">
+                        <dl class="b">
+                            <dt>我的三级分销商</dt>
+                            <dd class="">{$third_leader}人</dd>
+                        </dl>
+                    </a>
+                </div>
+                <!-- 我的推广 -->
+                <!-- <a href="javascript:;" id="dis-btn2" data-operation="no" style="z-index: 10"><em class="Icon j_million"></em><dl class="b"><dt>我的推广</dt><dd class=""><span class="dis-span">0单 (￥0)</span></dd></dl></a>
+                <div class="dis-btn2-list">
+                    <a href="">
+                        <dl class="b">
+                            <dt>下单未购买</dt>
+                            <dd class="">1人</dd>
+                        </dl>
+                    </a>
+                    <a href="#">
+                        <dl class="b">
+                            <dt>下单已购买</dt>
+                            <dd class="">1人</dd>
+                        </dl>
+                    </a>
+                </div> -->
+                <a href="javascript:;" id="dis-btn3" data-operation="no" style="z-index: 10"><em class="Icon j_million"></em><dl class="b"><dt>我的财富</dt><dd class="">&nbsp;</dd></dl></a>
+                <div class="dis-btn3-list">
+                    <!--                     <a href="">
+                        <dl class="b">
+                            <dt>未付款订单财富</dt>
+                            <dd class="">￥0</dd>
+                        </dl>
+                    </a>
+                    <a href="#">
+                        <dl class="b">
+                            <dt>已付款订单财富</dt>
+                            <dd class="">￥0</dd>
+                        </dl>
+                    </a>
+                    <a href="#">
+                        <dl class="b">
+                            <dt>已收货订单财富</dt>
+                            <dd class="">￥0</dd>
+                        </dl>
+                    </a>
+                    <a href="#">
+                        <dl class="b">
+                            <dt>已分成订单财富</dt>
+                            <dd class="">￥0</dd>
+                        </dl>
+                    </a> -->
+                    <a href="javascript:;">
+                        <dl class="b">
+                            <dt>可提现财富</dt>
+                            <dd class="">￥{$user['user_money']}</dd>
+                        </dl>
+                    </a>
+                    <a href="javascript:;">
+                        <dl class="b">
+                            <dt>已提现财富</dt>
+                            <dd class="">￥{$user['frozen_money']}</dd>
+                        </dl>
+                    </a>
+                </div>
+                <a href="{:U('Mobile/Distribut/myqrcode',array('user_id'=>$user[user_id]))}"><em class="Icon j_million"></em><dl class="b"><dt>我的推广二维码</dt><dd>&nbsp;</dd></dl></a>
+                <!-- <a href="{:U('Mobile/Distribut/line_up')}">
+                    <em class="Icon j_million"></em>
+                    <dl class="b">
+                        <dt>排队领钱啦~！</dt>
+                        <dd>&nbsp;</dd>
+                    </dl>
+                </a> -->
+            </div>
+        </div>
+        <include file="Public/footer" />
+    </div>
+    <include file="Public/footer_nav" />
+</body>
+<script type="text/javascript">
+$("#dis-btn1").click(function() {
+    var btn1type = $(this).attr("data-operation");
+    if (btn1type == 'no') {
+        $(this).attr("data-operation", "yes");
+        $(".dis-btn1-list").addClass("dis-btn1-open");
+        // $(this).children(".dis-btn1-list").addClass("dis-btn1-open");
+    } else {
+        $(this).attr("data-operation", "no");
+        $(".dis-btn1-list").removeClass("dis-btn1-open");
+        // $(this).children(".dis-btn1-list").removeClass("dis-btn1-open");
+    }
+})
+$("#dis-btn2").click(function() {
+    var btn1type = $(this).attr("data-operation");
+    if (btn1type == 'no') {
+        $(this).attr("data-operation", "yes");
+        $(".dis-btn2-list").addClass("dis-btn2-open");
+        // $(this).children(".dis-btn1-list").addClass("dis-btn1-open");
+    } else {
+        $(this).attr("data-operation", "no");
+        $(".dis-btn2-list").removeClass("dis-btn2-open");
+        // $(this).children(".dis-btn1-list").removeClass("dis-btn1-open");
+    }
+})
+$("#dis-btn3").click(function() {
+    var btn1type = $(this).attr("data-operation");
+    if (btn1type == 'no') {
+        $(this).attr("data-operation", "yes");
+        $(".dis-btn3-list").addClass("dis-btn3-open");
+        // $(this).children(".dis-btn1-list").addClass("dis-btn1-open");
+    } else {
+        $(this).attr("data-operation", "no");
+        $(".dis-btn3-list").removeClass("dis-btn3-open");
+        // $(this).children(".dis-btn1-list").removeClass("dis-btn1-open");
+    }
+})
+</script>
+
+</html>

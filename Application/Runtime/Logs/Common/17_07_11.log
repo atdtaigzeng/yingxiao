@@ -1,0 +1,12 @@
+[ 2017-07-11T03:29:14+08:00 ] 110.188.231.198 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Template
+
+[ 2017-07-11T21:30:58+08:00 ] 116.21.94.76 /Template/mobile/new/Static/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Template
+
