@@ -1,16 +1,4 @@
 <?php
-/**
- * tpshop
- * ============================================================================
- * 版权所有 2015-2027 深圳搜豹网络科技有限公司，并保留所有权利。
- * 网站地址: http://www.tp-shop.cn
- * ----------------------------------------------------------------------------
- * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和使用 .
- * 不允许对程序代码以任何形式任何目的的再发布。
- * ============================================================================
- * Author: 当燃      
- * Date: 2015-10-09
- */
 
 namespace Admin\Controller;
 use Admin\Logic\GoodsLogic;
@@ -24,7 +12,7 @@ class SystemController extends BaseController{
 		/*配置列表*/
 		$group_list = array('shop_info'=>'网站信息','basic'=>'基本设置','sms'=>'短信设置','shopping'=>'购物流程设置','smtp'=>'邮件设置','water'=>'水印设置','distribut'=>'分销设置');		
 		$this->assign('group_list',$group_list);
-		$inc_type =  I('get.inc_type','shop_info');
+		$inc_type =  I('get.inc_type','shop_info');//默认为shop_info
 		$this->assign('inc_type',$inc_type);
 		$config = tpCache($inc_type);
 		if($inc_type == 'shop_info'){
