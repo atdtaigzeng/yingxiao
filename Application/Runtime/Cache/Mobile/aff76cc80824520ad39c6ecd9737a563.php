@@ -65,33 +65,35 @@
               </div>
             </li><?php endif; endforeach; endif; ?>
             <li class="flow_youhui_no">如果是会员<font color=red></font>，可以享受会员折扣价</li>
-            <li  class="flow_youhui_no"  >
-                <div class="checkout_other" >
-                <div class="jmbag" href="javascript:void(0);" onClick="showCheckoutOther(this);"><span class="right_arrow_flow"></span>使用优惠券</div>
-                <table class="subbox_other sub_bonus" width="100%">
-                  <tr>
-                    <td  colspan="2">
-                    <input type="radio" class="radio vam ma-ri-10" name="couponTypeSelect" checked value="1"  onClick="ajax_order_price();" />
-                     <select id="coupon_id" name="coupon_id" class="vam ou-no" onChange="ajax_order_price();">                                                     
-                         <option value="0">选择优惠券</option>
-                          <?php if(is_array($couponList)): foreach($couponList as $k=>$v): ?><option value="<?php echo ($v['id']); ?>"><?php echo ($v['name']); ?>(抵用<?php echo ($sum); ?>元)</option><?php endforeach; endif; ?>   
-                     </select>                    
-                    </td>
-                    <!--<td>
-                    &nbsp;或 &nbsp;
-                    <input type="radio" class="radio vam ma-ri-10" name="couponTypeSelect"  value="2"  onClick="ajax_order_price();javascript:document.getElementById('Bonus_span_0').style.display='block';" />
-                    <a href="javascript:void(0);"  class="a_other1_h" id="Bonus_a_0">直接输入优惠券号</a>
-                    </td>
-                    <td>
-                      <label id="Bonus_span_0" style="display:none;">
-                        <input name="couponCode" id="bonus_sn_0" type="text"   value="" placeholder="输入优惠券"  class="txt1" style="width:100px;"/>
-                        <input name="validate_bonus" type="button" value="使用" onClick="ajax_order_price();" class="BonusButton" />
-                      </label>
-                    </td>-->
-                  </tr>
-                </table>
-              </div>
-            </li>
+            <!--<li  class="flow_youhui_no"  >-->
+                <!--<div class="checkout_other" >-->
+                <!--<div class="jmbag" href="javascript:void(0);" onClick="showCheckoutOther(this);"><span class="right_arrow_flow"></span>使用优惠券</div>-->
+                <!--<table class="subbox_other sub_bonus" width="100%">-->
+                  <!--<tr>-->
+                    <!--<td  colspan="2">-->
+                    <!--<input type="radio" class="radio vam ma-ri-10" name="couponTypeSelect" checked value="1"  onClick="ajax_order_price();" />-->
+                     <!--<select id="coupon_id" name="coupon_id" class="vam ou-no" onChange="ajax_order_price();">                                                     -->
+                         <!--<option value="0">选择优惠券</option>-->
+                          <!--<?php if(is_array($couponList)): foreach($couponList as $k=>$v): ?>-->
+                            <!--<option value="<?php echo ($v['id']); ?>"><?php echo ($v['name']); ?>(抵用<?php echo ($sum); ?>元)</option>-->
+                          <!--<?php endforeach; endif; ?>   -->
+                     <!--</select>                    -->
+                    <!--</td>-->
+                    <!--&lt;!&ndash;<td>-->
+                    <!--&nbsp;或 &nbsp;-->
+                    <!--<input type="radio" class="radio vam ma-ri-10" name="couponTypeSelect"  value="2"  onClick="ajax_order_price();javascript:document.getElementById('Bonus_span_0').style.display='block';" />-->
+                    <!--<a href="javascript:void(0);"  class="a_other1_h" id="Bonus_a_0">直接输入优惠券号</a>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                      <!--<label id="Bonus_span_0" style="display:none;">-->
+                        <!--<input name="couponCode" id="bonus_sn_0" type="text"   value="" placeholder="输入优惠券"  class="txt1" style="width:100px;"/>-->
+                        <!--<input name="validate_bonus" type="button" value="使用" onClick="ajax_order_price();" class="BonusButton" />-->
+                      <!--</label>-->
+                    <!--</td>&ndash;&gt;-->
+                  <!--</tr>-->
+                <!--</table>-->
+              <!--</div>-->
+            <!--</li>-->
             <li class="flow_youhui_no">
        			<label id="Bonus_span_0">
        			   使用余额：
@@ -235,7 +237,7 @@
                    <div class="subtotal">
                       <span class="total-text">商品总额：</span><em class="price">￥<?php echo ($total_price["total_fee"]); ?>元</em><br/>
                       <span class="total-text">配送费用：</span>￥<em class="price" id="postFee"><?php echo ($total_price["shipping_price"]); ?></em>元<br/>
-                      <span class="total-text">使用优惠券：</span>-&nbsp;¥&nbsp;<em class="price" id="couponFee">0</em>元<br/>
+                      <!--<span class="total-text">使用优惠券：</span>-&nbsp;¥&nbsp;<em class="price" id="couponFee">0</em>元<br/>-->
                       <!-- <span class="total-text">使用积分：</span>-&nbsp;¥&nbsp;<em class="price" id="pointsFee">0</em>元<br/> -->
                       <span class="total-text">使用余额：</span>-&nbsp;¥&nbsp;<em class="price" id="balance">0</em>元<br/>
                       <span class="total-text">优惠活动：</span>-&nbsp;¥&nbsp;<em class="price" id="order_prom_amount">0</em>元<br/>                      

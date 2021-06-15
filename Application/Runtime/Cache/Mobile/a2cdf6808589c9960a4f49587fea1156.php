@@ -53,7 +53,7 @@
 <div class="Wallet">
 	<ul>
 	<li class="bain1"><strong>￥<?php echo ($user['user_money']); ?>元</strong><span>余额</span></li>
-	<li class=""><strong><?php echo ($coupon_count); ?></strong><span>优惠券</span></li>
+	<!--<li class=""><strong><?php echo ($coupon_count); ?></strong><span>优惠券</span></li>-->
 	</ul>
 	<a href="<?php echo U('Mobile/User/account');?>"><em class="Icon Icon1"></em><dl><dt>我的钱包</dt><dd style="color:#aaaaaa;">查看我的钱包</dd></dl></a>
 </div>
@@ -61,8 +61,8 @@
 
 <div class="Wallet">
 	<a href="<?php echo U('Mobile/User/order_list');?>" ><em class="Icon Icon2"></em><dl class="b"><dt>全部订单</dt><dd>查看订单</dd></dl></a>
-	<a href="<?php echo U('Mobile/User/coupon');?>"><em class="Icon Icon3"></em><dl class="b"><dt>我的优惠券</dt><dd>&nbsp;</dd></dl></a>
-	<a href="<?php echo U('Mobile/User/coupon_car');?>"><em class="Icon " style="background: url(http://chuantu.biz/t5/78/1493862150x2728329077.png) no-repeat;background-size: 100% 100%;margin-left: -1%"></em><dl class="b"><dt>我的学车卷</dt><dd>&nbsp;</dd></dl></a>
+	<!--<a href="<?php echo U('Mobile/User/coupon');?>"><em class="Icon Icon3"></em><dl class="b"><dt>我的优惠券</dt><dd>&nbsp;</dd></dl></a>-->
+	<!--<a href="<?php echo U('Mobile/User/coupon_car');?>"><em class="Icon " style="background: url(http://chuantu.biz/t5/78/1493862150x2728329077.png) no-repeat;background-size: 100% 100%;margin-left: -1%"></em><dl class="b"><dt>我的学车卷</dt><dd>&nbsp;</dd></dl></a>-->
 	<!-- <a href="<?php echo U('User/points');?>"><em class="Icon Icon6"></em><dl class="b"><dt>积分余额</dt><dd>&nbsp;</dd></dl></a> -->
 	<a href="<?php echo U('Mobile/User/withdrawals');?>"><em class="Icon Icon1"></em><dl class="b"><dt>申请提现</dt><dd>&nbsp;</dd></dl></a>
 	<?php if($tpshop_config['distribut_switch'] == 1): ?><a href="<?php echo U('Distribut/index');?>"><em class="Icon Icon1"></em><dl class="b"><dt>我发展收益</dt><dd>&nbsp;</dd></dl></a><?php endif; ?>    

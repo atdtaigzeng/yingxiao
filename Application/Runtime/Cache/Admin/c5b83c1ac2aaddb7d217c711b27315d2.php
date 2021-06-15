@@ -465,14 +465,14 @@
                                         <span id="err_exchange_integral" style="color:#F00; display:none;"></span>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>可抵用金额：</td>
-                                    <td>
-                                        <input type="text" class="form-control" style="width:150px;" value="<?php echo ($goodsInfo["offset"]); ?>" name="offset" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')" onpaste="this.value=this.value.replace(/[^\d.]/g,'')" />
-                                        <p style="color: red; " > 注意：定金支付的商品该项不填</p>
-                                        <span id="err_exchange_integral1" style="color:#F00; display:none;"></span>
-                                    </td>
-                                </tr>
+                                <!--<tr>-->
+                                    <!--<td>可抵用金额：</td>-->
+                                    <!--<td>-->
+                                        <!--<input type="text" class="form-control" style="width:150px;" value="<?php echo ($goodsInfo["offset"]); ?>" name="offset" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')" onpaste="this.value=this.value.replace(/[^\d.]/g,'')" />-->
+                                        <!--<p style="color: red; " > 注意：定金支付的商品该项不填</p>-->
+                                        <!--<span id="err_exchange_integral1" style="color:#F00; display:none;"></span>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
                                 <!--
                                 <tr>
                                     <td>设置:</td>

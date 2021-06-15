@@ -1,4 +1,5 @@
 <?php
+
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
 // +----------------------------------------------------------------------
@@ -20,6 +21,7 @@
  * @param mixed $default 默认值
  * @return mixed
  */
+
 function C($name=null, $value=null,$default=null) {
     static $_config = array();
     // 无参数时获取所有
@@ -57,6 +59,7 @@ function C($name=null, $value=null,$default=null) {
  * @param string $parse 配置解析方法 有些格式需要用户自己解析
  * @return array
  */
+
 function load_config($file,$parse=CONF_PARSE){
     $ext  = pathinfo($file,PATHINFO_EXTENSION);
     switch($ext){
@@ -78,7 +81,6 @@ function load_config($file,$parse=CONF_PARSE){
             }
     }
 }
-
 /**
  * 解析yaml文件返回一个数组
  * @param string $file 配置文件名
@@ -90,7 +92,6 @@ if (!function_exists('yaml_parse_file')) {
         return Spyc::YAMLLoad($file);
     }
 }
-
 /**
  * 抛出异常处理
  * @param string $msg 异常消息
@@ -119,6 +120,7 @@ function E($msg, $code=0) {
  * @param integer|string $dec 小数位或者m
  * @return mixed
  */
+
 function G($start,$end='',$dec=4) {
     static $_info       =   array();
     static $_mem        =   array();
@@ -132,7 +134,6 @@ function G($start,$end='',$dec=4) {
         }else{
             return number_format(($_info[$end]-$_info[$start]),$dec);
         }
-
     }else{ // 记录时间和内存使用
         $_info[$start]  =  microtime(TRUE);
         if(MEMORY_LIMIT_ON) $_mem[$start]           =  memory_get_usage();
@@ -146,6 +147,7 @@ function G($start,$end='',$dec=4) {
  * @param mixed $value 语言值或者变量
  * @return mixed
  */
+
 function L($name=null, $value=null) {
     static $_lang = array();
     // 空参数返回所有定义
@@ -182,6 +184,7 @@ function L($name=null, $value=null) {
  * @param boolean $record 是否记录日志
  * @return void|array
  */
+
 function trace($value='[think]',$label='',$level='DEBUG',$record=false) {
     return Think\Think::trace($value,$label,$level,$record);
 }
@@ -191,6 +194,7 @@ function trace($value='[think]',$label='',$level='DEBUG',$record=false) {
  * @param string $filename 文件名
  * @return string
  */
+
 function compile($filename) {
     $content    =   php_strip_whitespace($filename);
     $content    =   trim(substr($content, 5));
@@ -212,8 +216,8 @@ function compile($filename) {
  * @param string $layer 视图层（目录）名称
  * @return string
  */
-function T($template='',$layer=''){
 
+function T($template='',$layer=''){
     // 解析模版资源地址
     if(false === strpos($template,'://')){
         $template   =   'http://'.str_replace(':', '/',$template);
@@ -223,7 +227,6 @@ function T($template='',$layer=''){
     $module =   isset($info['user'])?$info['user'].'/':MODULE_NAME.'/';
     $extend =   $info['scheme'];
     $layer  =   $layer?$layer:C('DEFAULT_V_LAYER');
-
     // 获取当前主题的模版路径
     $auto   =   C('AUTOLOAD_NAMESPACE');
     if($auto && isset($auto[$extend])){ // 扩展资源
@@ -237,10 +240,8 @@ function T($template='',$layer=''){
     }else{
         $baseUrl    =   APP_PATH.$module.$layer.'/';
     }
-
     // 获取主题
     $theme  =   substr_count($file,'/')<2 ? C('DEFAULT_THEME') : '';
-
     // 分析模板文件规则
     $depr   =   C('TMPL_FILE_DEPR');
     if('' == $file) {
@@ -268,6 +269,7 @@ function T($template='',$layer=''){
  * @param mixed $datas 要获取的额外数据源
  * @return mixed
  */
+
 function I($name,$default='',$filter=null,$datas=null) {
 	static $_PUT	=	null;
 	if(strpos($name,'/')){ // 指定修饰符
@@ -363,7 +365,6 @@ function I($name,$default='',$filter=null,$datas=null) {
             }elseif(is_int($filters)){
                 $filters    =   array($filters);
             }
-            
             if(is_array($filters)){
                 foreach($filters as $filter){
                     if(function_exists($filter)) {
@@ -427,6 +428,7 @@ function array_map_recursive($filter, $data) {
  * @param boolean $save 是否保存结果
  * @return mixed
  */
+
 function N($key, $step=0,$save=false) {
     static $_num    = array();
     if (!isset($_num[$key])) {

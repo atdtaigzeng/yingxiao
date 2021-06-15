@@ -136,50 +136,50 @@ class UserController extends MobileBaseController
         $this->display();
     }
     
-    /**
-     * 学车优惠券
-     */
-    public function coupon_car(){
-        $uid = $this->user_id;
-        if( $res = M('coupon_car')->where("uid={$uid} and is_use=0")->select() ){
-            $this->assign('coupon_car',$res);
-        }
-        
-        $this->display();
-    }
+//    /**
+//     * 学车优惠券
+//     */
+//    public function coupon_car(){
+//        $uid = $this->user_id;
+//        if( $res = M('coupon_car')->where("uid={$uid} and is_use=0")->select() ){
+//            $this->assign('coupon_car',$res);
+//        }
+//
+//        $this->display();
+//    }
+//
+//    public function find_user(){
+//        $phone = I('get.phone');
+//        $coupon_id = I('get.coupon_id');//学车卷id
+//        if($name = M('users')->where("mobile= '{$phone}'")->getField('nickname')){
+//            $array = array('status'=>1,'name'=>$name);
+//            $this->ajaxReturn($array);
+//;        }else{
+//            $array = array('status'=>0,'name'=>'');
+//            $this->ajaxReturn($array);
+//        }
+//    }
     
-    public function find_user(){
-        $phone = I('get.phone');
-        $coupon_id = I('get.coupon_id');//学车卷id
-        if($name = M('users')->where("mobile= '{$phone}'")->getField('nickname')){
-            $array = array('status'=>1,'name'=>$name);
-            $this->ajaxReturn($array);
-;        }else{
-            $array = array('status'=>0,'name'=>'');
-            $this->ajaxReturn($array);
-        }
-    }
-    
-    /**
-     * 学车卷赠送
-     */
-    public function coupon_send(){
-        $phone = I('get.phone');
-        $coupon_id = I('get.coupon_id');//学车卷id
-        if( $user = M('users')->where("mobile='{$phone}'")->field("user_id")->find() ){
-            $send_id = $user['user_id'];
-            $uid = $this->user_id;
-            $update['uid'] = $send_id;
-            if( M('coupon_car')->where("uid={$uid} and id={$coupon_id}")->save($update) ){
-               echo 1;
-            }else{
-                echo -1;
-            }
-        }else{
-            echo 0;
-        }
-    }
-    
+//    /**
+//     * 学车卷赠送
+//     */
+//    public function coupon_send(){
+//        $phone = I('get.phone');
+//        $coupon_id = I('get.coupon_id');//学车卷id
+//        if( $user = M('users')->where("mobile='{$phone}'")->field("user_id")->find() ){
+//            $send_id = $user['user_id'];
+//            $uid = $this->user_id;
+//            $update['uid'] = $send_id;
+//            if( M('coupon_car')->where("uid={$uid} and id={$coupon_id}")->save($update) ){
+//               echo 1;
+//            }else{
+//                echo -1;
+//            }
+//        }else{
+//            echo 0;
+//        }
+//    }
+//
     
 
     /**
